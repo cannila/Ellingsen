@@ -1,0 +1,18 @@
+.hero {
+    display: flex;
+    background-image: url(../img/cabinss.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    align-items: center;
+    height: 75%;
+    color: wheat; 
+    &__contenedor {
+        padding: 10px 5px;
+        position: relative;
+        border-radius: 10px;
+        left: 30px;
+        width: 550px;
+        color: wheat; 
+    }
+}

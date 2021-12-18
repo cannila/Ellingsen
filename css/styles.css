@@ -68,8 +68,11 @@ rem */
   cursor: pointer;
   background-color: rgba(205, 221, 174, 0.822); }
 
+<<<<<<< HEAD
 .cabanas__video {
   width: 100%; }
+=======
+>>>>>>> f975956cf5cce8b3dc191c66e47fce40913293d5
 
 .cabanas {
   display: flex;
