@@ -1,0 +1,17 @@
+.footer {
+    display: flex;
+    padding: 20px 10px;
+    flex-basis: 100%;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    list-style: none; 
+    &__nav {
+        display: flex; 
+        &__item {
+            display: inline-block;
+            text-decoration: none;
+            margin: 10px 0px; 
+        }
+    }            
+}
