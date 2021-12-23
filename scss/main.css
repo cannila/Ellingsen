@@ -1,7 +1,4 @@
-<<<<<<< HEAD
-=======
 @import url("https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700&family=Open+Sans+Condensed:ital,wght@0,300;0,700;1,300&display=swap");
->>>>>>> f975956cf5cce8b3dc191c66e47fce40913293d5
 * {
   margin: 0;
   padding: 0;
@@ -9,30 +6,6 @@
           box-sizing: border-box;
 }
 
-<<<<<<< HEAD
-/* font-family: 'Lato', sans-serif;
-font-family: 'Open Sans Condensed', sans-serif;
-font-family: 'Playfair Display', serif; */
-/* PROPIEDADES DE TEXTO: 
-listas: 
--list-style-none
-fuentes: 
--font-style,
--font-weight, 
--font-size, 
--font-family, 
--text-align, 
--line-height, 
--text-decoration, 
-*/
-/* PROPIEDAD COLOR (listo): 
-color */
-/* UNIDADES DE MEDIDA: 
-px, 
-porcentaje, 
-rem */
-=======
->>>>>>> f975956cf5cce8b3dc191c66e47fce40913293d5
 .header {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -40,11 +13,11 @@ rem */
   padding: 10px 5px;
   background-color: #93bb6a;
   -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
   -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
 }
 
 .header__logo {
@@ -61,11 +34,8 @@ rem */
   /*separa las li*/
 }
 
-<<<<<<< HEAD
 .header__item {
-=======
 .header__list__item {
->>>>>>> f975956cf5cce8b3dc191c66e47fce40913293d5
   margin: 0px 12px;
 }
 
@@ -91,9 +61,9 @@ rem */
   left: 30px;
   width: 550px;
   color: wheat;
+  background-image: url(../img/cabinss.jpg);
 }
 
-<<<<<<< HEAD
 .btn {
   color: #293b03;
   padding: 12px 8px;
@@ -105,8 +75,6 @@ rem */
   width: 100%;
 }
 
-=======
->>>>>>> f975956cf5cce8b3dc191c66e47fce40913293d5
 .cabanas {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -125,13 +93,8 @@ rem */
 
 .cabanas__parrafo {
   font-family: 'Open Sans Condensed', sans-serif;
-<<<<<<< HEAD
   font-size: 1.5rem;
   line-height: 1.5;
-=======
-  font-size: 0.5rem;
-  line-height: 0.5rem;
->>>>>>> f975956cf5cce8b3dc191c66e47fce40913293d5
 }
 
 .cabanas__video {
@@ -156,11 +119,7 @@ rem */
 
 .servicios__parrafo {
   font-family: 'Open Sans Condensed', sans-serif;
-<<<<<<< HEAD
   font-size: 1.5rem;
-=======
-  font-size: 0.5rem;
->>>>>>> f975956cf5cce8b3dc191c66e47fce40913293d5
   line-height: 1.5;
 }
 
@@ -174,15 +133,12 @@ rem */
   max-width: 600px;
 }
 
-<<<<<<< HEAD
 .separador {
   background-color: brown;
   height: 5px;
   border: none;
 }
 
-=======
->>>>>>> f975956cf5cce8b3dc191c66e47fce40913293d5
 .actividades {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -201,11 +157,7 @@ rem */
 
 .actividades__parrafo {
   font-family: 'Open Sans Condensed', sans-serif;
-<<<<<<< HEAD
   font-size: 1.5rem;
-=======
-  font-size: 0.5rem;
->>>>>>> f975956cf5cce8b3dc191c66e47fce40913293d5
   line-height: 1.5;
 }
 
@@ -219,39 +171,23 @@ rem */
   max-width: 600px;
 }
 
-<<<<<<< HEAD
-=======
-.btn {
-  color: #293b03;
-  padding: 12px 8px;
-  cursor: pointer;
-  background-color: rgba(205, 221, 174, 0.822);
-}
-
-.separador {
-  background-color: brown;
-  height: 5px;
-  border: none;
-}
-
->>>>>>> f975956cf5cce8b3dc191c66e47fce40913293d5
 .footer {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
   padding: 20px 10px;
   -ms-flex-preferred-size: 100%;
-      flex-basis: 100%;
+  flex-basis: 100%;
   -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
   -webkit-box-orient: vertical;
   -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
   -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
   list-style: none;
 }
 
@@ -261,13 +197,8 @@ rem */
   display: flex;
 }
 
-<<<<<<< HEAD
-.footer__item {
-=======
 .footer__nav__item {
->>>>>>> f975956cf5cce8b3dc191c66e47fce40913293d5
   display: inline-block;
   text-decoration: none;
   margin: 10px 0px;
 }
-/*# sourceMappingURL=main.css.map */
