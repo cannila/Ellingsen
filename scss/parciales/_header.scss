@@ -1,0 +1,23 @@
+@import "./vars";
+.header {
+    display: flex;
+    padding: 10px 5px;
+    background-color: #93bb6a;
+    align-items: center;
+    justify-content: space-between; 
+    &__logo {
+        max-width: 100%;
+    }
+    .header__nav{
+        &__list {
+            /*como cambio el color*/
+           display: flex;
+           list-style: none;
+           gap: 20px;
+            /*separa las li*/ 
+           &__item {
+               margin: 0px 12px;
+            }
+        }
+    }   
+    }   

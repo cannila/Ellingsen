@@ -1,51 +1,25 @@
-* {
-  margin: 0;
-  padding: 0;
-  -webkit-box-sizing: border-box;
-          box-sizing: border-box;
-}
 
-/* font-family: 'Lato', sans-serif;
-font-family: 'Open Sans Condensed', sans-serif;
-font-family: 'Playfair Display', serif; */
-/* PROPIEDADES DE TEXTO: 
-listas: 
--list-style-none
-fuentes: 
--font-style,
--font-weight, 
--font-size, 
--font-family, 
--text-align, 
--line-height, 
--text-decoration, 
-*/
-/* PROPIEDAD COLOR (listo): 
-color */
-/* UNIDADES DE MEDIDA: 
-px, 
-porcentaje, 
-rem */
 .header {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  padding: 10px 5px;
-  background-color: #93bb6a;
+  padding: 5px 5px;
+  background-color: #7bd422;
   -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
   -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
 }
-
+/*main agrego aca o saco la clase del index*/
 .header__logo {
   max-width: 100%;
+  margin-right: 10px;
+  margin-left: 5px;
 }
 
 .header__list {
-  /*como cambio el color*/
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -55,7 +29,7 @@ rem */
 }
 
 .header__item {
-  margin: 0px 12px;
+  margin: 0px 5px;
 }
 
 .hero {
@@ -73,20 +47,22 @@ rem */
   color: wheat;
 }
 
-.hero__contenedor {
+.hero__texto {
   padding: 10px 5px;
   position: relative;
   border-radius: 10px;
   left: 30px;
   width: 550px;
   color: wheat;
+  display:block;
 }
 
 .btn {
   color: #293b03;
-  padding: 12px 8px;
+  padding: 5px 5px;
   cursor: pointer;
   background-color: rgba(205, 221, 174, 0.822);
+  border: 5px;
 }
 
 .cabanas__video {
@@ -99,6 +75,7 @@ rem */
   display: flex;
   color: #9b4902;
   background-color: rgba(130, 223, 166, 0.904);
+  
 }
 
 .cabanas__titulo {
@@ -107,6 +84,8 @@ rem */
   font-weight: 700;
   margin-bottom: 10px;
   color: #703a0a;
+  margin-top: 10px;
+  
 }
 
 .cabanas__parrafo {
@@ -209,6 +188,12 @@ rem */
   list-style: none;
 }
 
+.footer__logo{
+  max-width: 100%;
+  margin-right: 10px;
+  margin-left: 5px;
+}
+
 .footer__nav {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -220,4 +205,3 @@ rem */
   text-decoration: none;
   margin: 10px 0px;
 }
-/*# sourceMappingURL=main.css.map */
