@@ -11,3 +11,26 @@
     cursor: pointer;
     background-color: rgba(193, 221, 138, 0.726); 
 }
+/*map-get()
+$estilos: (
+  color: #3673D9,
+  centro: center,
+  tFuente: 35px,
+  1rem : 1rem
+);
+
+div {
+  background-color: map-get($estilos, color);
+  text-align: map-get($estilos, centro);
+  padding: map-get($estilos, 1rem);
+  font-size:map-get($estilos, tFuente);
+}
+*/
+.titulo-index {
+    font-family: 'Open Sans Condensed', sans-serif;
+    font-size: 2rem;
+    font-weight: 700;
+    margin-bottom: 10px;
+    color: #703a0a;
+  }
+

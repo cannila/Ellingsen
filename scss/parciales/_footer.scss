@@ -8,7 +8,9 @@
     align-items: center;
     list-style: none; 
     &__nav {
-        display: flex; 
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
         &__item {
             display: inline-block;
             text-decoration: none;

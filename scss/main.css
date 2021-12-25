@@ -49,15 +49,19 @@
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-<<<<<<< HEAD
-  height: 75vh;
-=======
-  height: 70vh;
->>>>>>> workingBranch
+  height: 80vh;
   color: wheat;
-  font-size: 2.2rem;
+  font-size: 2.3rem;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-content: stretch;
+  align-items: flex-end;
 }
 
+.hero__texto{
+  margin-top: 1 rem;
+    
+}
 .hero__contenedor {
   padding: 10px 5px;
   position: relative;
@@ -72,7 +76,7 @@
   display: -ms-flexbox;
   display: flex;
   color: #9b4902;
-  background-color: rgba(130, 223, 166, 0.904);
+  background-color: rgba(216, 243, 220);
 }
 
 .cabanas__titulo {
@@ -85,7 +89,8 @@
 
 .cabanas__parrafo {
   font-family: 'Open Sans Condensed', sans-serif;
-  font-size: 1.5rem;
+  font-size: 1.3rem;
+  color: rgb(27, 67, 50);
 }
 
 .cabanas__video {
@@ -96,8 +101,8 @@
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  color: #9b4902;
-  background-color: rgba(93, 161, 119, 0.904);
+  color: rgb(27, 67, 50);
+  background-color: rgba(149, 213, 178);
 }
 
 .servicios__titulo {
@@ -110,7 +115,8 @@
 
 .servicios__parrafo {
   font-family: 'Open Sans Condensed', sans-serif;
-  font-size: 1.5rem;
+  font-size: 1.3rem;
+  line-height: 1.5;
 }
 
 .servicios__img {
@@ -122,13 +128,20 @@
      object-fit: cover;
   max-width: 600px;
 }
+.actividades-page{
+  font-family: 'Open Sans Condensed', sans-serif;
+  font-size: 1.5rem;
+  font-weight: 700;
+  margin: 10px, 10px;
+  color: #442c9b;
+}
 
 .actividades {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  color: #9b4902;
-  background-color: rgba(70, 168, 107, 0.904);
+  color: rgb(27, 67, 50);
+  background-color: rgba(116, 198, 157);
 }
 
 .actividades__titulo {
@@ -141,7 +154,8 @@
 
 .actividades__parrafo {
   font-family: 'Open Sans Condensed', sans-serif;
-  font-size: 1.5rem;
+  font-size: 1.3rem;
+  line-height: 1.5;
 }
 
 .actividades__img {
