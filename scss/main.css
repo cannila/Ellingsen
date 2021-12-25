@@ -1,25 +1,31 @@
+@import url("https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700&family=Open+Sans+Condensed:ital,wght@0,300;0,700;1,300&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
 
 .header {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  padding: 5px 5px;
-  background-color: #7bd422;
+  padding: 10px 5px;
+  background-color: #93bb6a;
   -webkit-box-align: center;
-  -ms-flex-align: center;
-  align-items: center;
+      -ms-flex-align: center;
+          align-items: center;
   -webkit-box-pack: justify;
-  -ms-flex-pack: justify;
-  justify-content: space-between;
-}
-/*main agrego aca o saco la clase del index*/
-.header__logo {
-  max-width: 100%;
-  margin-right: 10px;
-  margin-left: 5px;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
 }
 
-.header__list {
+.header__logo {
+  max-width: 100%;
+}
+
+.header .header__nav__list {
+  /*como cambio el color*/
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -28,8 +34,8 @@
   /*separa las li*/
 }
 
-.header__item {
-  margin: 0px 5px;
+.header .header__nav__list__item {
+  margin: 0px 12px;
 }
 
 .hero {
@@ -47,26 +53,13 @@
   color: wheat;
 }
 
-.hero__texto {
+.hero__contenedor {
   padding: 10px 5px;
   position: relative;
   border-radius: 10px;
   left: 30px;
   width: 550px;
   color: wheat;
-  display:block;
-}
-
-.btn {
-  color: #293b03;
-  padding: 5px 5px;
-  cursor: pointer;
-  background-color: rgba(205, 221, 174, 0.822);
-  border: 5px;
-}
-
-.cabanas__video {
-  width: 100%;
 }
 
 .cabanas {
@@ -75,7 +68,6 @@
   display: flex;
   color: #9b4902;
   background-color: rgba(130, 223, 166, 0.904);
-  
 }
 
 .cabanas__titulo {
@@ -84,14 +76,12 @@
   font-weight: 700;
   margin-bottom: 10px;
   color: #703a0a;
-  margin-top: 10px;
-  
 }
 
 .cabanas__parrafo {
   font-family: 'Open Sans Condensed', sans-serif;
-  font-size: 1.5rem;
-  line-height: 1.5;
+  font-size: 0.5rem;
+  line-height: 0.5rem;
 }
 
 .cabanas__video {
@@ -116,7 +106,7 @@
 
 .servicios__parrafo {
   font-family: 'Open Sans Condensed', sans-serif;
-  font-size: 1.5rem;
+  font-size: 0.5rem;
   line-height: 1.5;
 }
 
@@ -128,12 +118,6 @@
   -o-object-fit: cover;
      object-fit: cover;
   max-width: 600px;
-}
-
-.separador {
-  background-color: brown;
-  height: 5px;
-  border: none;
 }
 
 .actividades {
@@ -154,7 +138,7 @@
 
 .actividades__parrafo {
   font-family: 'Open Sans Condensed', sans-serif;
-  font-size: 1.5rem;
+  font-size: 0.5rem;
   line-height: 1.5;
 }
 
@@ -166,6 +150,20 @@
   -o-object-fit: cover;
      object-fit: cover;
   max-width: 600px;
+}
+
+.separador {
+  background-color: brown;
+  height: 5px;
+  border: none;
+}
+
+.btn {
+  color: #293b03;
+  padding: 5px 5px;
+  cursor: pointer;
+  background-color: rgba(193, 221, 138, 0.822);
+  margin: 5px;
 }
 
 .footer {
@@ -188,20 +186,17 @@
   list-style: none;
 }
 
-.footer__logo{
-  max-width: 100%;
-  margin-right: 10px;
-  margin-left: 5px;
-}
-
 .footer__nav {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
 }
 
-.footer__item {
+.footer__nav__item {
   display: inline-block;
   text-decoration: none;
   margin: 10px 0px;
 }
+
+/*ultimas para que se aplique en todas las de arriba*/
+/*# sourceMappingURL=main.css.map */
