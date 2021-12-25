@@ -49,8 +49,9 @@
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  height: 75%;
+  height: 75vh;
   color: wheat;
+  font-size: 2.2rem;
 }
 
 .hero__contenedor {
@@ -80,7 +81,7 @@
 
 .cabanas__parrafo {
   font-family: 'Open Sans Condensed', sans-serif;
-  font-size: 1.25rem;
+  font-size: 1.5rem;
 }
 
 .cabanas__video {
@@ -105,8 +106,7 @@
 
 .servicios__parrafo {
   font-family: 'Open Sans Condensed', sans-serif;
-  font-size: 1.25rem;
-  line-height: 1.5;
+  font-size: 1.5rem;
 }
 
 .servicios__img {
@@ -137,7 +137,7 @@
 
 .actividades__parrafo {
   font-family: 'Open Sans Condensed', sans-serif;
-  font-size: 1.25rem;
+  font-size: 1.5rem;
 }
 
 .actividades__img {
@@ -151,16 +151,17 @@
 }
 
 .separador {
-  background-color: brown;
+  background-color: #e0d756;
   height: 5px;
   border: none;
 }
 
 .btn {
-  color: #293b03;
+  color: #0d7a0d;
+  font-family: 700;
   padding: 5px 5px;
   cursor: pointer;
-  background-color: rgba(193, 221, 138, 0.822);
+  background-color: rgba(193, 221, 138, 0.726);
 }
 
 .footer {
