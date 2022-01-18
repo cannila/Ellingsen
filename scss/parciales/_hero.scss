@@ -1,14 +1,16 @@
 @import "./vars";
 .hero {
     display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
     background-image: url(../img/cabinss.jpg);
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
-    align-items: center;
+    align-items: flex-end;
     height: 75vh;
     color: wheat; 
-    font-size: 2.3rem;
+    font-size: 2rem;
     &__contenedor {
         padding: 10px 5px;
         position: relative;
