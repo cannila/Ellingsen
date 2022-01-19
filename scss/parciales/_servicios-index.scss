@@ -1,7 +1,6 @@
 @import "./vars";
 .servicios {
-    @extend:%display;
-    color: rgb(27, 67, 50);ssssssss
+    color: rgb(27, 67, 50);
     background-color: rgba(98, 165, 123, 0.753); 
     &__titulo {
         font-family: 'Open Sans Condensed', sans-serif;

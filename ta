@@ -1,0 +1,246 @@
+[33mcommit 737159c02f48587ae674c72d0847c5fc55d8969d[m[33m ([m[1;36mHEAD -> [m[1;32mmaster[m[33m)[m
+Author: cannila <boynakcamila@gmail.com>
+Date:   Wed Jan 19 13:44:31 2022 +0100
+
+    modifique el css
+
+[33mcommit e2fc23f52da55b23c38e133dffa0c5356a8177b3[m[33m ([m[1;31morigin/master[m[33m)[m
+Author: cannila <boynakcamila@gmail.com>
+Date:   Tue Jan 18 23:57:26 2022 +0100
+
+    cambie el texto del hero
+
+[33mcommit c4690a13995b2dd05f1e8b4a78651eeb6b677bbf[m
+Author: cannila <boynakcamila@gmail.com>
+Date:   Tue Jan 18 13:53:50 2022 +0100
+
+    cambie el script de BS en todas las pages, padding al btn
+
+[33mcommit e684f95b8f3e4de01c73616d7126ca17358b8a6e[m[33m ([m[1;32mcheckout[m[33m)[m
+Author: cannila <boynakcamila@gmail.com>
+Date:   Sat Jan 15 00:09:39 2022 +0100
+
+    arregle el link del footer de formulario, saque el Lorem de la pagina ubicacion y productos
+
+[33mcommit 1b484016d8f17ce6e71b2c1a7efef206c3baa06b[m
+Author: cannila <boynakcamila@gmail.com>
+Date:   Sat Jan 15 00:00:23 2022 +0100
+
+    Cambie todos los Lorem por texto, arregle el error en la page actividades, ordene la estructura del codigo en la pag de actividades
+
+[33mcommit 1fdf7548d0e0cd9ae4a7d3f9fa9c29707a7bdae3[m
+Merge: 1425edb 58449f3
+Author: cannila <boynakcamila@gmail.com>
+Date:   Sun Dec 26 00:22:27 2021 +0100
+
+    acordeon de la pagina actividades
+
+[33mcommit 58449f3a713572c170a42323e7e4066d88b44208[m
+Author: cannila <boynakcamila@gmail.com>
+Date:   Sun Dec 26 00:18:55 2021 +0100
+
+    hice el acordeon de la pagina actividades
+
+[33mcommit 1425edb8fa49fc94c753c4b55ae060619e3e2fe3[m
+Author: cannila <boynakcamila@gmail.com>
+Date:   Sat Dec 25 23:58:09 2021 +0100
+
+    commit SASS II
+
+[33mcommit 0150e3599bedb3e1beb996f84d172822179f4d28[m
+Merge: f7492fb d2bca45
+Author: cannila <boynakcamila@gmail.com>
+Date:   Sat Dec 25 22:37:48 2021 +0100
+
+    commits para mejorar el SEO
+
+[33mcommit d2bca45f813c85cefc1e086ae71613891c49d744[m
+Author: cannila <boynakcamila@gmail.com>
+Date:   Sat Dec 25 22:33:19 2021 +0100
+
+    cambie el titulo en cada pagina de mi sitio web
+
+[33mcommit fc5a18cdee51ee1433b90e0b6122d7b15093fc05[m
+Author: cannila <boynakcamila@gmail.com>
+Date:   Sat Dec 25 22:25:58 2021 +0100
+
+    agregue las etiquetas meta en el head
+
+[33mcommit f7492fb4cd0cfa5efa0bba417f2319e845938007[m
+Author: cannila <boynakcamila@gmail.com>
+Date:   Sat Dec 25 22:20:35 2021 +0100
+
+    cambie el font size del hero title y los textos del main
+
+[33mcommit d31d9427e5baccb1797c17a01dc89e3d571d8db4[m
+Author: cannila <boynakcamila@gmail.com>
+Date:   Sat Dec 25 13:24:45 2021 +0100
+
+    error encontrado, proyecto actualizado
+
+[33mcommit 9cfd97ed6cb317723c68836ed031730570c5a110[m
+Merge: 4e61917 91aa4ed
+Author: cannila <boynakcamila@gmail.com>
+Date:   Sat Dec 25 13:09:09 2021 +0100
+
+    no
+
+[33mcommit 4e61917aeb21f20b784df88e4476d99e5e9c7cb6[m
+Author: cannila <boynakcamila@gmail.com>
+Date:   Sat Dec 25 13:02:04 2021 +0100
+
+    actualizado
+
+[33mcommit def9e2148da277f4b5c830650a1bf581355d0cf0[m
+Author: cannila <boynakcamila@gmail.com>
+Date:   Sat Dec 25 12:07:29 2021 +0100
+
+    index arreglado, headers modificados, listo hasta antes de la clase 8
+
+[33mcommit 8821dde59f63188bd574bbd63749e91f67d3fc43[m
+Author: cannila <boynakcamila@gmail.com>
+Date:   Sat Dec 25 11:58:41 2021 +0100
+
+    cambie el titulo de todas las section del index, puse todos los btn iguales
+
+[33mcommit b84998f333fc239731336243011b3b6493284822[m
+Author: cannila <boynakcamila@gmail.com>
+Date:   Sat Dec 25 11:50:25 2021 +0100
+
+    el color de los headers es blanco, las img del index estan alineadas
+
+[33mcommit d1d1d5610e91c073f0e4a73b2e1e41e53039f8c8[m
+Author: cannila <boynakcamila@gmail.com>
+Date:   Sat Dec 25 11:00:02 2021 +0100
+
+    acomode un poco el codigo, uni todos los componentes en un solo archivo dentro de parciales y cambie el color del header
+
+[33mcommit d36d236c477571daa91d6914c6006395a24f6a3b[m
+Author: cannila <boynakcamila@gmail.com>
+Date:   Fri Dec 24 04:22:38 2021 +0100
+
+    cambie el color de los headers, actualice el main.scss y agregue los parciales
+
+[33mcommit 91aa4ed98d8904e1a774a3069c7866268deed4f7[m
+Author: cannila <boynakcamila@gmail.com>
+Date:   Thu Dec 23 13:54:00 2021 +0100
+
+    realice las correcciones de la segunda entrega del PF y acomode los headers que estaban mal
+
+[33mcommit dfd039a25a77b98e99897bb16de2d6f98ce5872a[m
+Merge: dd07a61 8ea74a0
+Author: cannila <boynakcamila@gmail.com>
+Date:   Sat Dec 18 21:33:34 2021 +0100
+
+    Merge branch 'workingBranch'
+
+[33mcommit 8ea74a0fedce8573e6d059bbadd2152e647de6cd[m
+Author: cannila <boynakcamila@gmail.com>
+Date:   Sat Dec 18 21:32:50 2021 +0100
+
+    hice el formulario de contacto con Bootstrap
+
+[33mcommit 93ef4a1109741281c095a60be7ad08fac4b98aca[m
+Author: cannila <boynakcamila@gmail.com>
+Date:   Sat Dec 18 21:27:59 2021 +0100
+
+    formulario de contacto con BT
+
+[33mcommit dd07a61850dd03911ed7a0cb8f7db0e2f7f56712[m
+Author: cannila <boynakcamila@gmail.com>
+Date:   Sat Dec 18 21:03:21 2021 +0100
+
+    index no se que se modifico
+
+[33mcommit d9c11aefa6e7d273fb5bca78b0ffb833ca8bfb9f[m
+Merge: 95c1531 d809016
+Author: cannila <boynakcamila@gmail.com>
+Date:   Sat Dec 18 20:56:42 2021 +0100
+
+    Merge branch 'workingBranch'
+
+[33mcommit d809016b0008821a655067bfe49f1b2b276ec0f4[m
+Author: cannila <boynakcamila@gmail.com>
+Date:   Sat Dec 18 20:53:50 2021 +0100
+
+    hice los head de las paginas del footer con BT y cambie el color a blanco de todos los footers
+
+[33mcommit 8426c8673f75035eb394eb4109d271d0bb1d3666[m
+Author: cannila <boynakcamila@gmail.com>
+Date:   Sat Dec 18 20:40:31 2021 +0100
+
+    cambie el color del footer del index
+
+[33mcommit 95c15313a4e76041e5a966c212c3f7797f7f4b1b[m
+Merge: 8c44257 26926ee
+Author: cannila <boynakcamila@gmail.com>
+Date:   Sat Dec 18 20:36:48 2021 +0100
+
+    hice todos los footers de nuevo con BT
+
+[33mcommit 26926eeec67ad861f4c9229d61cb946e5b98c4b3[m
+Author: cannila <boynakcamila@gmail.com>
+Date:   Sat Dec 18 20:31:20 2021 +0100
+
+    saque todos los hr separadores del index, cambie el texto del ultimo btn del index, saque todos los br del index e hice los footers de nuevo con BS
+
+[33mcommit 8c44257429fde7430b896a6868d0f949f5a0b2be[m
+Merge: bdc0119 f975956
+Author: cannila <boynakcamila@gmail.com>
+Date:   Sat Dec 18 20:12:52 2021 +0100
+
+    combine lo que estaba hecho en SASS con los headers hechos en BT y la correccion de los enlaces rotos
+
+[33mcommit bdc01198884e4bdf57d482ebf6ec5f042ba921fa[m
+Author: cannila <boynakcamila@gmail.com>
+Date:   Sat Dec 18 20:04:18 2021 +0100
+
+    cambie el ultimo btn del index que estaba mal el anchor
+
+[33mcommit f9cc419a8f74027a853a91b27cf327d687291e51[m
+Author: cannila <boynakcamila@gmail.com>
+Date:   Sat Dec 18 19:25:22 2021 +0100
+
+    puse el orden correcto de los links en el Head para que tome mis estilos
+
+[33mcommit 3a1b0372a0c07aefbc6d77c67d0a994068e217d0[m
+Author: cannila <boynakcamila@gmail.com>
+Date:   Sat Dec 18 19:15:33 2021 +0100
+
+    cambie el header en todas las paginas, agregue el carousel de la pag galeria y arregle todos los enlaces que estaban rotos
+
+[33mcommit fbbd51d4caf1957f58633f28fa09baada6d7da9a[m
+Author: cannila <boynakcamila@gmail.com>
+Date:   Sat Dec 18 15:57:49 2021 +0100
+
+    agregue lo trabajado con SASS de la primera clase
+
+[33mcommit f975956cf5cce8b3dc191c66e47fce40913293d5[m
+Author: cannila <boynakcamila@gmail.com>
+Date:   Sat Dec 18 13:45:50 2021 +0100
+
+    aplique SASS como pide el desafio entregable
+
+[33mcommit 21ed72f3cdc721ec4a70d865408a5986ac3c78d1[m
+Author: cannila <boynakcamila@gmail.com>
+Date:   Fri Dec 17 19:31:41 2021 +0100
+
+    cambie el idioma a ES en todas las paginas del proyecto
+
+[33mcommit c7dde8915d11a62a599462d0422738fb7a060a8d[m
+Author: cannila <95537400+cannila@users.noreply.github.com>
+Date:   Fri Dec 10 19:56:34 2021 +0100
+
+    cambie el contacto por contactanos en el footer del index.html
+
+[33mcommit a1bb7ed0f1836d61be12a062ef2e592bd0466eec[m
+Author: cannila <boynakcamila@gmail.com>
+Date:   Thu Dec 9 22:10:48 2021 +0100
+
+    agregue el .gitignore
+
+[33mcommit 2a0e167b3f623c73ca4570cb4a952b5dcc4a39c7[m
+Author: cannila <boynakcamila@gmail.com>
+Date:   Thu Dec 9 19:42:26 2021 +0100
+
+    cambie el pages.html por pages y lo modifique en todos lados
