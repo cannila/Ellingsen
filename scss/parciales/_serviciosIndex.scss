@@ -1,8 +1,11 @@
 @import "./vars";
 .servicios {
-    @extend:%display;
-    color: rgb(27, 67, 50);ssssssss
-    background-color: rgba(98, 165, 123, 0.753); 
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap; 
+    color: rgb(221, 161, 94);
+    background-color: rgba(130, 223, 166, 0.904);
+ 
     &__titulo {
         font-family: 'Open Sans Condensed', sans-serif;
         font-size: $font-size*2;
@@ -13,13 +16,13 @@
     &__parrafo {
         font-family: 'Open Sans Condensed', sans-serif;
         font-size: 1.5rem;
+        color: rgb(40, 54, 24) ;
     }  
     &__img {
         width: 100%;
         height: 500px;
-        border-radius: 5px;
+        border-radius: 3px;
         margin: auto;
-        object-fit: cover;
-        max-width: 600px;
+        object-fit: contain;
     }
 }

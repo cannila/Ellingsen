@@ -1,7 +1,6 @@
 @import "./vars";
 .cabanas {
-   
-    color: #9b4902;
+    color: rgb(221, 161, 94);
     background-color: rgba(130, 223, 166, 0.904);
     display: flex;
     flex-direction: column;
@@ -15,7 +14,7 @@
    }
    &__parrafo {
       font-family: 'Open Sans Condensed', sans-serif;
-      font-size: 1.3rem;
+      font-size: 1.5rem;
       color: rgb(27, 67, 50);
    }
    &__video {
