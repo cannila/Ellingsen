@@ -7,17 +7,21 @@
     background-position: center;
     align-items: center;
     height: 75vh;
-    color: wheat; 
-    font-size: 2.3rem;
+    color: rgb(24, 22, 18); 
+    font-size: 1.5rem;
     &__contenedor {
         padding: 10px 5px;
         position: relative;
         border-radius: 10px;
         left: 30px;
         width: 550px;
-        color: wheat; 
+        color: rgb(44, 38, 28); 
     }
     &__texto{
-        margin-top: 1 rem;  
+        margin-top: 1 rem;               
     }
+}
+.hero__contenido{
+    background-image: url(../../img/heronaturaleza.jpg);
+    color: black;
 }
