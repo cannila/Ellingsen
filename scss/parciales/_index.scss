@@ -41,32 +41,7 @@ footer__list?
 
 
 */
-.hero {
-    display: flex;
-    background-image: url(../img/cabinss.jpg);
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-position: center;
-    align-items: center;
-    height: 75vh;
-    color: rgb(24, 22, 18); 
-    font-size: 1.5rem;
-    &__contenedor {
-        padding: 10px 5px;
-        position: relative;
-        border-radius: 10px;
-        left: 30px;
-        width: 550px;
-        color: rgb(44, 38, 28); 
-    }
-    &__texto{
-        margin-top: 1 rem;               
-    }
-}
-.hero__contenido{
-    background-image: url(../../img/heronaturaleza.jpg);
-    color: black;
-}
+
 
 
 /*lo traje de _cabanas*/

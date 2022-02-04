@@ -4,27 +4,6 @@
   box-sizing: border-box; 
 }
 
-/* font-family: 'Lato', sans-serif;
-font-family: 'Open Sans Condensed', sans-serif;
-font-family: 'Playfair Display', serif; */
-/* PROPIEDADES DE TEXTO: 
-listas: 
--list-style-none
-fuentes: 
--font-style,
--font-weight, 
--font-size, 
--font-family, 
--text-align, 
--line-height, 
--text-decoration, 
-*/
-/* PROPIEDAD COLOR (listo): 
-color */
-/* UNIDADES DE MEDIDA: 
-px, 
-porcentaje, 
-rem */
 .header {
   display: flex;
   padding: 10px 5px;
@@ -38,11 +17,9 @@ rem */
 }
 
 .header__list {
-  /*como cambio el color*/
   display: flex;
   list-style: none;
-  gap: 20px;
-  /*separa las li*/ 
+  gap: 20px; 
 }
 
 .header__item {
@@ -60,7 +37,7 @@ rem */
   color: wheat; 
 }
 
-.hero__contenedor {
+.hero__contenido {
   padding: 10px 5px;
   position: relative;
   border-radius: 10px;

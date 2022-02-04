@@ -1,25 +1,26 @@
 @import "./vars";
-.heroIndex {
+.hero {
     display: flex;
-    flex-direction: column;
-    flex-wrap: wrap;
-    background-image: url(../../img/hehehero.jpg);
+    background-image: url(../img/cabinss.jpg);
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
-    align-items: flex-end;
+    align-items: center;
     height: 75vh;
-    color: wheat; 
-    font-size: 2rem;
-    &__contenedor {
+    color: rgb(24, 22, 18); 
+    font-size: 1.5rem;
+    &__titulo{
+        padding-left: 5rem;
+    }
+    &__contenido {
         padding: 10px 5px;
         position: relative;
         border-radius: 10px;
         left: 30px;
         width: 550px;
-        color: wheat; 
+        color: rgb(235, 222, 199);       
     }
     &__texto{
-        margin-top: 1 rem;  
+        margin-top: 1 rem;               
     }
 }

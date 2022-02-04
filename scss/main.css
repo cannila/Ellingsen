@@ -69,12 +69,19 @@
   margin-top: 1 rem;
   text-align: center;    
 }
-
+.hero__contenido{
+  padding: 10px 5px;
+  position: relative;
+  border-radius: 10px;
+  left: 30px;
+  width: 550px;
+  color: rgb(235, 222, 199);  
+}
 .cabanasIndex {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  color: rgb(31, 77, 58);
+  color: rgb(77, 70, 31);
   background-color: rgba(216, 243, 220);
   font-size: 1.25rem;
   font-weight: 700;
@@ -95,6 +102,11 @@
   font-size: 1.25rem;
   line-height: 1.5;
 }
+
+.cabanasIndex__img{
+  border-radius: 15px;
+}
+
 /*BOTON*/
 .btn{
   color: #0d7a0d;
