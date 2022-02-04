@@ -1,0 +1,21 @@
+@import "./vars";
+.nosotros__hero {
+    background-image: url(../../img/familia.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    height: 90vh;   
+}  
+  
+.nosotros__texto {
+    padding: 10px 5px;
+    position: relative;
+    border-radius: 10px;
+    left: 30px;
+    width: 550px;
+    color: wheat;
+    display:block;
+}
