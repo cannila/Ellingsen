@@ -1,17 +1,12 @@
-$color-titulo: #c7600c;
 $font-size: 1rem;
+$ladrillo: rgb (142, 65, 46);
+$naranja: rgb (186, 111, 77);
+$verdeMatte: rgb (104, 114, 89);
+$blancoRosa: rgb (244, 236, 226);
+$verdeGris: rgb (162, 161, 130);
+$verdeOscuro: rgb (51, 61, 41);
+$rosaPiel: rgb (230, 206, 188);
 
-.titulo-index{
-    font-family: 'Open Sans Condensed', sans-serif;
-    font-size: 2rem;
-    font-weight: 700;
-    margin-bottom: 10px;
-    color: #fdebf8;
-}
-/*@extend: %display; para cabanas, actividades y servicios del index*/
 
-%display{
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-} /*esto se copia solo aca???? como se si lo aplico???*/
+
+
