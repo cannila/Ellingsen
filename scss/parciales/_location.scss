@@ -1,0 +1,8 @@
+@import "./vars";
+.body {
+	background-image: linear-gradient(45deg, transparent 20%, rgba(194, 197, 170, 0.26) 25%, transparent 25%), 
+					  linear-gradient(-45deg, transparent 20%, rgba(194, 197, 170, 0.144) 25%, transparent 25%), 
+					  linear-gradient(-45deg, transparent 75%, rgba(194, 197, 170, 0.151) 80%, transparent 0),
+					  radial-gradient(rgba(128, 128, 128, 0.473) 2px, transparent 0);
+	background-size: 30px 30px, 30px 30px;
+  }
