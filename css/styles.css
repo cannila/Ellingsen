@@ -49,7 +49,7 @@ rem */
   margin: 0px 12px; 
 }
 
-.hero {
+.heroIndex {
   display: flex;
   background-image: url(../img/hehehero.jpg);
   background-size: cover;
