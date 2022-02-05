@@ -1,14 +1,147 @@
-@import url("https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700&family=Open+Sans+Condensed:ital,wght@0,300;0,700;1,300&display=swap");
-
-* {
-  margin: 0;
-  padding: 0;
-  -webkit-box-sizing: border-box;
-          box-sizing: border-box;
+@import url("https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@300;400&display=swap");
+.cabanas {
+  color: rgb 51, 61, 41;
+  background-color: rgb 162, 161, 130;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
 }
 
-.galeria__img{
-  border-radius: 10px;
+.cabanas__titulo {
+  font-family: 'Open Sans Condensed', sans-serif;
+  font-size: 2rem;
+  font-weight: 700;
+  margin-bottom: 10px;
+  color: lila;
+}
+
+.cabanas__parrafo {
+  font-family: 'Open Sans Condensed', sans-serif;
+  font-size: 1.5rem;
+  color: #1b4332;
+}
+
+.cabanas__video {
+  width: 100%;
+}
+
+.actividades {
+  color: #9b4902;
+  background-color: rgba(70, 168, 107, 0.904);
+}
+
+.actividades__parrafo {
+  font-family: 'Open Sans Condensed', sans-serif;
+  font-size: 1.5rem;
+  line-height: 1.5;
+}
+
+.actividades__img {
+  width: 100%;
+  height: 500px;
+  border-radius: 5px;
+  margin: auto;
+  -o-object-fit: cover;
+  object-fit: cover;
+  max-width: 600px;
+}
+
+.titulo-index, .actividades__titulo {
+  font-family: 'Open Sans Condensed', sans-serif;
+  font-size: 2rem;
+  font-weight: 700;
+  margin-bottom: 10px;
+  color: #c42e97;
+}
+
+.servicios {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  color: #dda15e;
+  background-color: rgba(130, 223, 166, 0.904);
+}
+
+.servicios__titulo {
+  font-family: 'Open Sans Condensed', sans-serif;
+  font-size: 2rem;
+  font-weight: 700;
+  margin-bottom: 10px;
+  color: lila;
+}
+
+.servicios__parrafo {
+  font-family: 'Open Sans Condensed', sans-serif;
+  font-size: 1.5rem;
+  color: #283618;
+}
+
+.servicios__img {
+  width: 100%;
+  height: 500px;
+  border-radius: 3px;
+  margin: auto;
+  -o-object-fit: contain;
+     object-fit: contain;
+}
+
+.titulo-index, .actividades__titulo {
+  font-family: 'Open Sans Condensed', sans-serif;
+  font-size: 2rem;
+  font-weight: 700;
+  margin-bottom: 10px;
+  color: #fdebf8;
+}
+
+/*@extend: %display; para cabanas, actividades y servicios del index*/
+.actividades {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+/*esto se copia solo aca???? como se si lo aplico???*/
+.header {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  padding: 5px 5px;
+  background-color: #93bb6a;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: justify;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+  font-size: 1rem;
+}
+
+.header__logo {
+  max-width: 100%;
+}
+
+.header__nav__list {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  list-style: none;
+  gap: 20px;
+}
+
+.header__nav__list__item {
+  margin: 0px 12px;
 }
 
 .header {
@@ -18,28 +151,24 @@
   padding: 5px 5px;
   background-color: #93bb6a;
   -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
   -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+  background-image: url(../../img/herofoto.jpg);
   font-size: 1rem;
 }
 
-.header__logo {
-  max-width: 100%;
-
-}
-
-.header .header__nav__list {
+.header__list {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
   list-style: none;
-  gap: 20px;  
+  gap: 20px;
 }
 
-.header .header__nav__list__item {
+.header__list__item {
   margin: 0px 12px;
 }
 
@@ -54,173 +183,167 @@
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  height: 80vh;
-  color: rgb(241, 227, 201);
+  height: 75vh;
+  color: #181612;
   font-size: 1.5rem;
-  flex-direction: row;
-  flex-wrap: wrap;
-  align-content: stretch;
-  align-items: flex-end;
 }
-.hero__titulo{
+
+.hero__titulo {
   padding-left: 5rem;
 }
-.hero__texto{
-  margin-top: 1 rem;
-  text-align: center;    
-}
-.hero__contenido{
+
+.hero__contenido {
   padding: 10px 5px;
   position: relative;
   border-radius: 10px;
   left: 30px;
   width: 550px;
-  color: rgb(235, 222, 199);  
+  color: #ebdec7;
 }
+
+.hero__texto {
+  margin-top: 1 rem;
+}
+
 .cabanasIndex {
+  color: #9b4902;
+  background-color: rgba(130, 223, 166, 0.904);
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  color: rgb(77, 70, 31);
-  background-color: rgba(216, 243, 220);
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  color: rgb 104, 114, 89;
   font-size: 1.25rem;
-  font-weight: 700;
-  font-family: 'Open Sans Condensed', sans-serif;
 }
 
-.cabanasIndex__titulo { 
+.cabanasIndex__titulo {
+  font-family: 'Open Sans Condensed', sans-serif;
   font-size: 1.5rem;
   font-weight: 700;
   margin-bottom: 10px;
 }
 
-.cabanasIndex__parrafo {  
-  font-size: 1.25rem; 
-}
-.cabanasIndex__list {
-  color: rgb(31, 77, 58); 
+.cabanasIndex__parrafo {
+  font-family: 'Open Sans Condensed', sans-serif;
   font-size: 1.25rem;
-  line-height: 1.5;
+  text-align: justify;
 }
 
-.cabanasIndex__img{
+.cabanasIndex__img {
   border-radius: 15px;
 }
 
-/*BOTON*/
-.btn{
+.cabanas {
+  font-family: 'Roboto Condensed', sans-serif;
+  font-size: 1.25rem;
+  color: rgb 51, 61, 41;
+}
+
+.cabanasPareja {
+  background-color: rgb 162, 161, 130;
+}
+
+.cabanasPareja__titulo {
+  font-size: 1.5rem;
+}
+
+.cabanasTres {
+  background-color: rgb 104, 114, 89;
+}
+
+.cabanasTres__titulo {
+  font-size: 1.5rem;
+}
+
+.cabanasFamiliares {
+  background-color: rgb 230, 206, 188;
+}
+
+.cabanasFamiliares__titulo {
+  font-size: 1.5rem;
+}
+
+.servicios {
+  background-color: rgba(250, 168, 15, 0.63);
+  font-size: 1.5rem;
+  font-weight: 600;
+  color: rgb 142, 65, 46;
+}
+
+.servicios__titulo {
+  font-family: 'Roboto Condensed', sans-serif;
+  text-transform: uppercase;
+}
+
+.card {
+  background-color: rgb 230, 206, 188;
+  font-size: 1rem;
+  font-family: lato;
+  border: 2px, dotted, green;
+}
+
+.card-title {
+  text-align: center;
+}
+
+/* esta bien este import del link que me paso cande aca?*/
+.separador {
+  background-color: #e0d756;
+  height: 5px;
+  border: none;
+}
+
+.btn {
   color: #0d7a0d;
-  font-family: 700;  
+  font-family: 700;
   padding: 5px 5px;
   cursor: pointer;
-  background-color: rgba(164, 211, 69, 0.829);
-  margin-right: 1rem;
-  border: 5px;
+  background-color: rgba(193, 221, 138, 0.726);
 }
 
-.btn--cabanas {
-  background-color: rgba(19, 185, 42, 0.644);
-  color: white;
-}
-.btn--cabanas:hover{
-  color: rgb(19, 185, 41);
-  background-color: white;
-}
-
-.serviciosIndex {
+.titulo-index, .actividades__titulo {
   font-family: 'Open Sans Condensed', sans-serif;
-  font-size: 1.25rem; 
-  color: rgb(36, 22, 97);
-  background-color: rgba(149, 213, 178);
+  font-size: 2rem;
   font-weight: 700;
- }
-
-.serviciosIndex__titulo {
-   font-size: 1.5rem; 
-   font-weight: 700;  
+  margin-bottom: 10px;
+  color: #703a0a;
 }
 
-.serviciosIndex__parrafo {
-   line-height: 1.5;
+.body {
+  background-image: linear-gradient(45deg, transparent 20%, rgba(194, 197, 170, 0.26) 25%, transparent 25%), linear-gradient(-45deg, transparent 20%, rgba(194, 197, 170, 0.144) 25%, transparent 25%), linear-gradient(-45deg, transparent 75%, rgba(194, 197, 170, 0.151) 80%, transparent 0), radial-gradient(rgba(128, 128, 128, 0.473) 2px, transparent 0);
+  background-size: 30px 30px, 30px 30px;
 }
 
-.serviciosIndex__img {
-  border-radius: 15px;
- 
-}
-
-.btn--servicios{
-  background-color: rgb(189, 164, 164);
-  color: rgb(66, 66, 163);
-}
-.btn--servicios :hover{
-color: rgb(189, 164, 164) ;
-background-color: rgb(66, 66, 163);
-}
-
-.cabanasIndex__img{
-  border-radius: 15px;
-}
-
-
-
-.actividadesIndex{
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  color: rgb(31, 77, 58);
-  background-color: rgba(216, 243, 220);
-  font-size: 1.25rem;
-  font-weight: 700;
-  font-family: 'Open Sans Condensed', sans-serif;
-}
-.actividadesIndex__titulo{
-  font-size: 1.5rem; 
-  font-weight: 700;  
-}
-.actividadesIndex__list{
-  color: rgb(31, 77, 58); 
-  font-size: 1.25rem;
-  line-height: 1.5;
-}
-
-.actividadesIndex__img{
-  border-radius: 15px;
-}
-
-/*FIN DEL INDEX*/
-/* F O O T E R */
-
-/*cabanas*/
-
-.img-fluid {
-  border-radius: 15px;
-}
-.cabanas__img{
-  border-radius: 15px;
-}
-
-/*/c a b a n a s */
 .footer {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
   padding: 20px 10px;
   -ms-flex-preferred-size: 100%;
-  flex-basis: 100%;
+      flex-basis: 100%;
   -webkit-box-pack: center;
-  -ms-flex-pack: center;
-  justify-content: center;
+      -ms-flex-pack: center;
+          justify-content: center;
   -webkit-box-orient: vertical;
   -webkit-box-direction: normal;
-  -ms-flex-direction: column;
-  flex-direction: column;
+      -ms-flex-direction: column;
+          flex-direction: column;
   -webkit-box-align: center;
-  -ms-flex-align: center;
-  align-items: center;
+      -ms-flex-align: center;
+          align-items: center;
   list-style: none;
 }
 
+.footer__nav {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
 
 .footer__nav__item {
   display: inline-block;
@@ -228,15 +351,39 @@ background-color: rgb(66, 66, 163);
   margin: 10px 0px;
 }
 
-.separador {
-  background-color: #e0d756;
-  height: 5px;
-  border: none;
-}
 .body {
-	background-image: linear-gradient(45deg, transparent 20%, rgba(194, 197, 170, 0.26) 25%, transparent 25%), 
-					  linear-gradient(-45deg, transparent 20%, rgba(194, 197, 170, 0.144) 25%, transparent 25%), 
-					  linear-gradient(-45deg, transparent 75%, rgba(194, 197, 170, 0.151) 80%, transparent 0),
-					  radial-gradient(rgba(128, 128, 128, 0.473) 2px, transparent 0);
-	background-size: 30px 30px, 30px 30px;
-  }
+  background-image: linear-gradient(45deg, transparent 20%, rgba(194, 197, 170, 0.26) 25%, transparent 25%), linear-gradient(-45deg, transparent 20%, rgba(194, 197, 170, 0.144) 25%, transparent 25%), linear-gradient(-45deg, transparent 75%, rgba(194, 197, 170, 0.151) 80%, transparent 0), radial-gradient(rgba(128, 128, 128, 0.473) 2px, transparent 0);
+  background-size: 30px 30px, 30px 30px;
+}
+
+.nosotros__titulo {
+  font-size: 1.5rem;
+}
+
+.nosotros__hero {
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  height: 90vh;
+}
+
+.nosotros__texto {
+  padding: 10px 5px;
+  position: relative;
+  border-radius: 10px;
+  left: 30px;
+  width: 550px;
+  color: black;
+  display: block;
+  font-size: 1.20rem;
+}
+
+.galeria__img {
+  border-radius: 10px;
+}
+
+.body {
+  background-image: linear-gradient(45deg, transparent 20%, rgba(194, 197, 170, 0.26) 25%, transparent 25%), linear-gradient(-45deg, transparent 20%, rgba(194, 197, 170, 0.144) 25%, transparent 25%), linear-gradient(-45deg, transparent 75%, rgba(194, 197, 170, 0.151) 80%, transparent 0), radial-gradient(rgba(128, 128, 128, 0.473) 2px, transparent 0);
+  background-size: 30px 30px, 30px 30px;
+}
+/*# sourceMappingURL=main.css.map */

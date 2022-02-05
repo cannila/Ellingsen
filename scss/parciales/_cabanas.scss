@@ -1,4 +1,29 @@
 @import "./vars";
-.cabanas__img{
-    border-radius: 15px;
-}
+.cabanas{
+    font-family: 'Roboto Condensed', sans-serif;
+    font-size: 1.25rem;
+    color: $verdeOscuro;
+  }
+  
+  .cabanasPareja{
+    background-color: $verdeGris;
+  }
+  .cabanasPareja__titulo{ 
+    font-size: 1.5rem;
+  }
+  
+  .cabanasTres{
+    background-color: $verdeMatte;
+  }
+  .cabanasTres__titulo{  
+    font-size: 1.5rem;
+  }
+  
+  .cabanasFamiliares{
+    background-color: $rosaPiel;
+  }
+  .cabanasFamiliares__titulo{
+    font-size: 1.5rem;
+  }
+  
+  

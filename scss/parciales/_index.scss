@@ -1,53 +1,8 @@
 @import "./vars";
-/*
-header
-header_logo
-header__list
-header__item
 
-
-
-HERO
-hero
-hero__contenido
-hero__texto
-btn-hero MODIFICAR a btn—hero para aplicar mixin y eso
-
-SECTION INDEX
-cabanasIndex
-cabanasIndex__titulo
-cabanasIndex__parrafo
-cabanasIndex__list
-btn—cabanas AGREGAR
-cabanasIndex__img
-
-serviciosIndex
-serviciosIndex__titulo
-serviciosIndex__parrafo
-serviciosIndex__list
-btn--servicios AGREGAR
-
-
-actividadesIndex
-actividadesIndex__titulo
-actividadesIndex__parrafo
-actividadesIndex__list
-btn--actividades AGREGAR
-
-FOOTER
-footer
-footer__logo
-footer__list?
-
-
-*/
-
-
-
-/*lo traje de _cabanas*/
 .cabanas {
-    color: rgb(221, 161, 94);
-    background-color: rgba(130, 223, 166, 0.904);
+    color: $verdeOscuro;
+    background-color: $verdeGris;
     display: flex;
     flex-direction: column;
     flex-wrap: wrap; 
@@ -71,7 +26,7 @@ footer__list?
 
 
 .actividades {
-    @extend:%display;
+    @extend %display;
     color: #9b4902;
     background-color: rgba(70, 168, 107, 0.904);
     &__titulo {

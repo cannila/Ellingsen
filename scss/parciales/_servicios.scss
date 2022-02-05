@@ -1,32 +1,25 @@
 @import "./vars";
-.servicios {
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    color: rgb(27, 67, 50);
-    background-color: rgba(149, 213, 178); 
-    &__titulo {
-        font-family: 'Open Sans Condensed', sans-serif;
-        font-size: 2rem;
-        font-weight: 700;
-        margin-bottom: 10px;
-        color: #703a0a;
-    }
-    &__parrafo {
-        font-family: 'Open Sans Condensed', sans-serif;
-        font-size: $font-size*0.5;
-        line-height: 1.5;
-    }  
-    &__img {
-        width: 100%;
-        height: 500px;
-        border-radius: 5px;
-        margin: auto;
-        -o-object-fit: cover;
-           object-fit: cover;
-        max-width: 600px;
-    }
-}
-.card{
-    background-color: black;
-}
+
+.servicios{
+    background-color: rgba(250, 168, 15, 0.63);
+    font-size: 1.5rem;
+    font-weight: 600;
+    color: $ladrillo;
+  
+  }
+  .servicios__titulo{
+    font-family: 'Roboto Condensed', sans-serif;
+    text-transform: uppercase;
+  }
+  .card{
+    background-color: $rosaPiel;
+    font-size: 1rem;
+    font-family: lato;
+   
+    border: 2px, dotted, green;
+  }
+  .card-title{
+    text-align: center;
+  }
+  
+  

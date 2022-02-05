@@ -6,23 +6,41 @@
 					  radial-gradient(rgba(128, 128, 128, 0.473) 2px, transparent 0);
 	background-size: 30px 30px, 30px 30px;
   }
-.nosotros__hero {
-    background-image: url(../../img/familia.jpg);
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-position: center;
-    -webkit-box-align: center;
-        -ms-flex-align: center;
-            align-items: center;
-    height: 90vh;   
+  .nosotros__hero {
+   color: rgb(221, 28, 221); 
+   font-size: 1rem;
 }  
   
-.nosotros__texto {
+.nosotros__contenido {
     padding: 10px 5px;
     position: relative;
     border-radius: 10px;
     left: 30px;
     width: 550px;
-    color: wheat;
+    color: rgb(148, 27, 138);
     display:block;
 }
+.nosotros__texto{
+  font-size: 1rem;
+}
+.nosotros__shop{
+  color: rgb(201, 82, 4);
+  font-size: 1.20rem;
+}
+
+.nosotros__titulo--shop{
+    color: $verdeOscuro;
+}
+    
+
+.nosotrosTienda__texto{
+  padding: 10px 5px;
+  position: relative;
+  border-radius: 10px;
+  left: 30px;
+  width: 550px;
+  color: rgb(201, 82, 4);
+  display:block;
+  font-size: 1.20rem;
+}
+
